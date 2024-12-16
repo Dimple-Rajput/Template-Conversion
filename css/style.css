@@ -1,0 +1,106 @@
+.nav-text{
+    color: aqua;
+}
+#text1{
+    width: 100%;
+    height: auto;
+  
+      
+}
+#text1 h1{
+    margin-left: 43%;
+
+}
+#mid-div{
+      display: flex;
+      width: 100%;
+      height: 500px;
+      position: relative;
+}
+.right-image{
+    
+    align-items: center;
+}
+.right-image img{
+    position: relative;
+
+    height: auto;
+    width: 90%;
+    max-width : 100%;
+    margin-left: 8%;
+    margin-top: 3%;
+   
+}
+#text2{
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+}
+.mid-one{
+    width: auto;
+    height: 60%;
+    background-color: #870000;
+}
+.slider{
+    margin-bottom: 20px;
+    position: relative;
+}
+.slider .owl-item.active.center .slider-card{
+    transform: scale(0.8);
+    opacity: 1;
+    background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+.slider-card{
+    
+    background-color: #fff;
+    margin:50px 15px 90px 15px ;
+    border-radius: 5px;
+    box-shadow: 0 12px 45px -20px rgba(206,191,191, 0.493);
+    transform: scale(0.6);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.slider-card img{
+  border-radius: 5px 5px 0px 0px;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 60px !important;
+    z-index: 1;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 60px !important;
+    z-index: 1;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    padding: 15px;
+  }
+  footer .links a {
+    font-family: "Montserrat", sans-serif;
+    padding: 6px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+  }
+  footer .links :hover {
+    color: rgb(213, 147, 16);
+  }
+  footer p {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+  }
+
